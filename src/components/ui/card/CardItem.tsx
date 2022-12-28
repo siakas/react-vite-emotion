@@ -1,4 +1,4 @@
-import DefaultButton from "../button/DefaultButton";
+import DefaultButton from "@/components/ui/button/DefaultButton";
 
 const CardItem = () => {
   return (
@@ -7,6 +7,6 @@ const CardItem = () => {
       <DefaultButton></DefaultButton>
     </div>
   );
-}
+};
 
 export default CardItem;
